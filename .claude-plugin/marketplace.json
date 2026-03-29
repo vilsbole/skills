@@ -1,0 +1,27 @@
+{
+  "name": "writing-skills",
+  "owner": {
+    "name": "vilsbole",
+    "url": "https://github.com/vilsbole"
+  },
+  "metadata": {
+    "description": "Writing and SEO skills for AI agents — copywriting, copy editing, SEO audits, AI SEO, and programmatic SEO",
+    "version": "1.0.0",
+    "repository": "https://github.com/vilsbole/skills"
+  },
+  "plugins": [
+    {
+      "name": "writing-skills",
+      "description": "5 writing and SEO skills: AI SEO optimization, programmatic SEO, SEO audits, copywriting, and copy editing",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/ai-seo",
+        "./skills/programmatic-seo",
+        "./skills/seo-audit",
+        "./skills/copywriting",
+        "./skills/copy-editing"
+      ]
+    }
+  ]
+}
