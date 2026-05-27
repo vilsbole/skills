@@ -35,7 +35,8 @@
         "./skills/engineering/zoom-out",
         "./skills/core/grill-me",
         "./skills/core/handoff",
-        "./skills/core/write-a-skill"
+        "./skills/core/write-a-skill",
+        "./skills/personal/chef"
       ]
     }
   ]
