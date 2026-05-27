@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "vilsbole's personal Claude skills — content, growth/SEO, research, engineering, and core productivity helpers",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "repository": "https://github.com/vilsbole/skills"
   },
   "plugins": [
