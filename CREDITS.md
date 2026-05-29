@@ -9,6 +9,12 @@ The following skills are vendored from [mattpocock/skills](https://github.com/ma
 
 `init-repo` is a renamed copy of the upstream `setup-matt-pocock-skills` skill (folder, frontmatter `name`, and the `/setup-matt-pocock-skills` → `/init-repo` slash references were updated). Skill logic is otherwise unchanged.
 
+> Note: `skills/engineering/ralph` is **not** vendored — it is originally authored for this repo (see below).
+
+## skills/engineering/ralph (original — inspired by prior art)
+
+`ralph` is written for this repo. Its loop design follows Matt Pocock's public "Ralph" approach ([aihero.dev](https://www.aihero.dev/getting-started-with-ralph)) — `RALPH:`-prefixed commits as the loop's memory, a bounded iteration count, `<promise>NO MORE TASKS</promise>` / `<promise>ABORT</promise>` control flow, and stream-json monitoring — and Geoffrey Huntley's original Ralph Wiggum technique ([ghuntley.com/ralph](https://ghuntley.com/ralph)). No upstream code is copied; the scripts and prompt are independent implementations of those ideas.
+
 These files are distributed under the MIT License, reproduced below:
 
 ```
