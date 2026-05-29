@@ -1,0 +1,8 @@
+# Generated skill bundles (see scripts/build-skills.sh and scripts/package-for-upload.sh)
+build/
+dist/
+
+.DS_Store
+
+# Local, per-machine Claude Code settings
+.claude/settings.local.json
