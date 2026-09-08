@@ -12,8 +12,8 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 BUILD="$ROOT/build"
 
 # Skills that MUST be packaged (every manifest skill outside engineering/).
-EXPECTED=(copywriting copy-editing humanizer ai-seo programmatic-seo seo-audit \
-          osint grill-me handoff write-a-skill chef)
+EXPECTED=(copywriting copy-editing humanizer reddit-response ai-seo programmatic-seo seo-audit \
+          osint grill-me handoff write-a-skill mac-cleanup chef)
 # Engineering skills that MUST NOT be packaged.
 EXCLUDED=(diagnose grill-with-docs improve-codebase-architecture prototype \
           init-repo tdd to-issues to-prd triage zoom-out)

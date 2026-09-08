@@ -21,6 +21,7 @@ Skills are organized into category folders (organizational only — categories d
 | `copywriting` | Write, rewrite, or improve marketing copy for any page. |
 | `copy-editing` | Edit, review, and tighten existing marketing copy. |
 | `humanizer` | Make AI-generated text read like a human wrote it. |
+| `reddit-response` | Draft a Reddit reply, or decide whether to reply at all. |
 
 ### growth/ — SEO & growth
 | Skill | What it does |
@@ -51,6 +52,7 @@ Skills are organized into category folders (organizational only — categories d
 ### core/ — productivity
 | Skill | What it does |
 |-------|--------------|
+| `mac-cleanup` | Find and remove leftover files from apps no longer installed on macOS. |
 | `grill-me` | Interrogate your own thinking before committing. |
 | `handoff` | Produce a context handoff for another session. |
 | `write-a-skill` | Author a new Claude skill. |
