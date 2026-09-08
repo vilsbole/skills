@@ -60,3 +60,58 @@ packages `skills/*/*/SKILL.md`, so this file is invisible to the marketplace.
 - Don't match surrounding comment density. Comment only what the code
   can't say itself. Never leave a comment where code was deleted — the
   commit message and git blame already carry that.
+
+Tone reference for every reply, not only documentation: GitHub Docs,
+"About stacked pull requests".
+
+- Address the reader as "you". Never "users can", "one", or "we" standing
+  in for the reader. "You can rerun the migration from the CLI" beats
+  "Users can rerun the migration from the CLI."
+- Make the actor the subject of a plain transitive verb: the test fails,
+  the hook rewrites, GitHub handles, you run. No passive that hides the
+  actor and no filler noun. "GitHub handles the rebase automatically"
+  beats "Rebasing is handled automatically through GitHub's stack
+  management capabilities."
+- State a constraint as a bare declarative with "must", "requires", or "is
+  not supported". Cut the apology, the time hedge, and the recommendation
+  wrapper: "unfortunately", "currently", "yet", "at this time", "as a best
+  practice", "we recommend". "Cross-fork stacks are not supported" beats
+  "Unfortunately, cross-fork stacks aren't currently supported."
+- When a constraint is conditional, open with the if/when clause naming
+  the concrete case, then the hard modal. Never state it as a tendency.
+  "If a handler reads a config key, its default must live in the same
+  module" beats "Config defaults should generally live close to where
+  they're used."
+- Pin a category noun to one to three instances with "such as" in the same
+  sentence, and stop there. "Foundational changes, such as shared types and
+  the database schema, go in lower branches" beats "Foundational changes go
+  in lower branches. For example, imagine you're adding login: first..."
+- State a benefit or a result as a bare comparative or a named
+  consequence: "faster to review", "rebased automatically", "two fewer
+  queries". No degree or evaluative modifier on it. "Smaller pull requests
+  are faster to review and less likely to go stale" beats "Smaller pull
+  requests dramatically speed up review and seamlessly avoid stale
+  branches."
+- Introduce a bulleted list with a full sentence stating the claim the
+  bullets support, ending in a colon. "The three failing tests share one
+  cause:" beats "Some notes on the tests."
+- After a list of problems or findings, add one sentence stating the
+  outcome the items produce together. Inventory lists (files touched,
+  options available) get no closer. "Every layer therefore has to pass
+  the same checks before it can merge" beats "In summary, rules and CI
+  both apply across the stack."
+- A caveat that limits a whole list goes in its own sentence after the
+  list, never inside the item it happens to touch.
+- Keep a paragraph to one to three sentences. A single rule, finding, or
+  consequence gets its own paragraph.
+- Join two independent clauses with ", and" or ", but", never a semicolon.
+  The conjunction names the relation, and the semicolon leaves the reader
+  to infer it.
+- Contract only in second-person sentences ("you'll need", "hasn't merged
+  yet"). Write third-person negated constraints in full ("is not
+  supported", "does not need to"), so a constraint is recognisable by its
+  register.
+- Backtick only strings the reader would type or see verbatim: branch
+  names, commands, flags, field names, paths. Product and feature names
+  stay plain. "the `gh stack` extension in GitHub CLI" beats "the `gh
+  stack` extension in `GitHub CLI`".
