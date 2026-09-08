@@ -19,6 +19,7 @@
         "./skills/create/copywriting",
         "./skills/create/copy-editing",
         "./skills/create/humanizer",
+        "./skills/create/reddit-response",
         "./skills/growth/ai-seo",
         "./skills/growth/programmatic-seo",
         "./skills/growth/seo-audit",
@@ -37,6 +38,7 @@
         "./skills/core/grill-me",
         "./skills/core/handoff",
         "./skills/core/write-a-skill",
+        "./skills/core/mac-cleanup",
         "./skills/personal/chef"
       ]
     }
